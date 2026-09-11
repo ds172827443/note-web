@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js node ./db/connect.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "@koa/router": "^13.1.0",
+    "@langchain/core": "^1.2.10",
+    "@langchain/openai": "^1.5.12",
+    "dotenv": "^16.4.5",
+    "hashids": "^2.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "koa": "^2.15.3",
+    "koa-bodyparser": "^4.4.1",
+    "langchain": "^1.5.11",
+    "mysql2": "^3.9.7",
+    "node-fetch": "^2.7.0",
+    "nodemon": "^3.1.14",
+    "sequelize": "^6.37.3"
+  }
+}
